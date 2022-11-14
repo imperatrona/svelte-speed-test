@@ -1,7 +1,8 @@
 # Svelte speed test
 I've run some adapters locally, and measure their speed with [oha](https://github.com/hatoo/oha). Full result in txt files.
 
-![Graph: Node, Deno and Bun](https://user-images.githubusercontent.com/37719998/189484075-aa195fb5-dd04-4e9f-817b-f290622d9a32.svg)
+![Graph: Node, Deno and Bun](https://user-images.githubusercontent.com/37719998/201751378-824aa5c9-9aa7-454b-b09b-b31917c6987c.svg)
+
 |Data|Node|Deno|Bun|
 |-|-|-|-|
 |Req/s|1682.1434|3248.5757|6243.3276|
