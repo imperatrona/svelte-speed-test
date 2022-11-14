@@ -5,17 +5,17 @@ I've run some adapters locally, and measure their speed with [oha](https://githu
 
 |Data|Node|Deno|Bun|
 |-|-|-|-|
-|Req/s|1682.1434|3248.5757|6243.3276|
-|Total,s|0.1189|30.7827|0.0320|
-|Slowest,s|0.0402|0.0827|0.0120|
-|Fastes,s|0.0117|0.0090|0.0037|
-|Average,s|0.0275|0.0154|0.0061|
+|Req/s|9023.8510|3248.5757|6243.3276|
+|Total,s|11.0817|30.7827|0.0320|
+|Slowest,s|0.0233|0.0827|0.0120|
+|Fastes,s|0.0029|0.0090|0.0037|
+|Average,s|0.0055|0.0154|0.0061|
 
 
 ## Versions used
 | Package | Version | [@sveltejs/kit](https://github.com/sveltejs/kit) version |
 |-|-|-|
-|[@sveltejs/adapter-node](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) | 1.0.0-next.73 | 1.0.0-next.304 |
+|[@sveltejs/adapter-node](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) | 1.0.0-next.100 | 1.0.0-next.406 |
 |[svelte-adapter-deno](https://github.com/pluvial/svelte-adapter-deno) | 0.8.1 | 1.0.0-next.406 |
 |[svelte-adapter-bun](https://github.com/gornostay25/svelte-adapter-bun) | 0.3.0 | 1.0.0-next.304 |
 
