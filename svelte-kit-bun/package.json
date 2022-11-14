@@ -1,11 +1,11 @@
 {
 	"name": "svelte-kit-demo",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"dev": "vite dev",
+		"build": "vite build",
 		"package": "svelte-kit package",
-		"preview": "svelte-kit preview",
+		"preview": "vite preview",
 		"start": "deno run --allow-env --allow-read --allow-net build/index.js",
 		"debug": "deno run --inspect-brk --allow-env --allow-read --allow-net build/index.js",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.20.0",
-		"@sveltejs/kit": "1.0.0-next.304",
+		"@sveltejs/kit": "1.0.0-next.406",
 		"@types/cookie": "^0.4.1",
 		"@typescript-eslint/eslint-plugin": "^5.17.0",
 		"@typescript-eslint/parser": "^5.17.0",
@@ -25,11 +25,12 @@
 		"prettier": "^2.5.1",
 		"prettier-plugin-svelte": "^2.5.0",
 		"svelte": "^3.46.6",
-		"svelte-adapter-bun": "0.3.0",
+		"svelte-adapter-bun": "^0.3.1",
 		"svelte-check": "^2.4.6",
 		"svelte-preprocess": "^4.10.1",
 		"tslib": "^2.3.1",
-		"typescript": "~4.6.2"
+		"typescript": "~4.6.2",
+		"vite": "^3.2.3"
 	},
 	"type": "module",
 	"dependencies": {
