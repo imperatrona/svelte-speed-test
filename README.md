@@ -1,7 +1,8 @@
 # Svelte speed test
 I've run some adapters locally, and measure their speed with [oha](https://github.com/hatoo/oha). Full result in txt files.
 
-![Graph: Node, Deno and Bun](https://user-images.githubusercontent.com/37719998/201757093-0edfa8c2-3cde-4ba8-a329-8917c4f2a2b7.svg)
+![Graph: Node, Deno and Bun]((https://user-images.githubusercontent.com/37719998/201763013-bd33a09a-508c-4429-b305-26c2d82f9fe7.svg)
+
 
 
 |Data|Node|Deno|Bun|
@@ -16,11 +17,12 @@ I've run some adapters locally, and measure their speed with [oha](https://githu
 [^1]: Bun adapter breaks after 10k
 
 ## Versions used
-| Package | Version | [@sveltejs/kit](https://github.com/sveltejs/kit) version |
+| Package | Version |
 |-|-|-|
-|[@sveltejs/adapter-node](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) | 1.0.0-next.100 | 1.0.0-next.406 |
-|[svelte-adapter-deno](https://github.com/pluvial/svelte-adapter-deno) | 0.8.1 | 1.0.0-next.406 |
-|[svelte-adapter-bun](https://github.com/gornostay25/svelte-adapter-bun) | 0.3.0 | 1.0.0-next.304 |
+|[@sveltejs/kit](https://github.com/sveltejs/kit) | 1.0.0-next.406 |
+|[@sveltejs/adapter-node](https://github.com/sveltejs/kit/tree/master/packages/adapter-node) | 1.0.0-next.100 |
+|[svelte-adapter-deno](https://github.com/pluvial/svelte-adapter-deno) | 0.8.1 |
+|[svelte-adapter-bun](https://github.com/gornostay25/svelte-adapter-bun) | 0.3.1 |
 
 
 
