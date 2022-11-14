@@ -1,18 +1,17 @@
 # Svelte speed test
 I've run some adapters locally[^1], and measure their speed with [oha](https://github.com/hatoo/oha). Full result in txt files.
 
-![Graph: Node, Deno and Bun](https://user-images.githubusercontent.com/37719998/201763013-bd33a09a-508c-4429-b305-26c2d82f9fe7.svg)
+![Graph: Node, Deno and Bun](https://user-images.githubusercontent.com/37719998/201765253-627bb5fe-2262-47cc-b0f6-5e4a653b0628.svg)
 
 
-
-|Data|Node|Deno|Bun|
-|-|-|-|-|
-|Req/s|9023.8510|3248.5757|6143.0011|
-|Total,req|100k|100k|10k[^2]|
-|Total,s|11.0817|30.7827|1.6279|
-|Slowest,s|0.0233|0.0827|0.0255|
-|Fastes,s|0.0029|0.0090|0.0006|
-|Average,s|0.0055|0.0154|0.0081|
+| Data      | Bun       | Node      | Deno      |
+|-----------|-----------|-----------|-----------|
+| Req/s     | 6143.0011 | 9023.8510 | 3248.5757 |
+| Total,req | 10k[^2]   | 100k      | 100k      |
+| Total,s   | 1.6279    | 11.0817   | 30.7827   |
+| Slowest,s | 0.0255    | 0.0233    | 0.0827    |
+| Fastes,s  | 0.0006    | 0.0029    | 0.0090    |
+| Average,s | 0.0081    | 0.0055    | 0.0154    |
 
 ## Versions used
 | Package | Version |
