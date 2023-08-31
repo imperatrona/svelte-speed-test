@@ -61,5 +61,5 @@ node build/index.js
 ```
 
 [^1]: Im using Macbook Pro with 2.3 GHz 8-Core Intel Core i9 and 16GB RAM
-[^2]: Bun now can run node adapter natively
+[^2]: Latest bun version can now run node adapter natively
 [^3]: Bun adapter breaks after 20k requests with error NOTCONN, oha returns "message head is too large" and "invalid HTTP header parsed" errors
