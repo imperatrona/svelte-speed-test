@@ -28,7 +28,7 @@ I've run some adapters locally[^1], and measure their speed with [oha](https://g
 ## Run locally
 
 ```
-git clone https://github.com/jonaaronru/svelte-speed-test.git
+git clone https://github.com/imperatrona/svelte-speed-test.git
 cd ./svelte-speed-test
 ```
 
