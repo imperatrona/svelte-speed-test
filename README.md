@@ -47,8 +47,7 @@ deno run --allow-env --allow-read --allow-net build/index.js
 cd ./svelte-kit-bun/
 bun i
 bun build
-cd ./build
-bun run start
+bun run build/index.js
 ```
 
 ## Run Node
