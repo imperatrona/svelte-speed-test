@@ -1,41 +1,41 @@
-oha -r 10000 http://0.0.0.0:3000/
+oha -n 20000 http://0.0.0.0:3000
 Summary:
   Success rate:	1.0000
-  Total:	0.0320 secs
-  Slowest:	0.0120 secs
-  Fastest:	0.0037 secs
-  Average:	0.0061 secs
-  Requests/sec:	6243.3276
+  Total:	2.1776 secs
+  Slowest:	0.1483 secs
+  Fastest:	0.0003 secs
+  Average:	0.0054 secs
+  Requests/sec:	9184.3607
 
-  Total data:	712.70 KiB
-  Size/request:	3.56 KiB
-  Size/sec:	21.73 MiB
+  Total data:	87.47 MiB
+  Size/request:	4.48 KiB
+  Size/sec:	40.17 MiB
 
 Response time histogram:
-  0.004 [1]   |
-  0.005 [11]  |■■
-  0.005 [121] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-  0.006 [12]  |■■■
-  0.007 [16]  |■■■■
-  0.008 [6]   |■
-  0.009 [1]   |
-  0.010 [8]   |■■
-  0.010 [10]  |■■
-  0.011 [12]  |■■■
-  0.012 [2]   |
+  0.000 [1]     |
+  0.015 [19918] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.030 [31]    |
+  0.045 [0]     |
+  0.060 [0]     |
+  0.074 [0]     |
+  0.089 [0]     |
+  0.104 [0]     |
+  0.119 [0]     |
+  0.134 [26]    |
+  0.148 [24]    |
 
 Latency distribution:
-  10% in 0.0047 secs
-  25% in 0.0049 secs
-  50% in 0.0052 secs
-  75% in 0.0064 secs
-  90% in 0.0101 secs
-  95% in 0.0106 secs
-  99% in 0.0114 secs
+  10% in 0.0034 secs
+  25% in 0.0040 secs
+  50% in 0.0049 secs
+  75% in 0.0059 secs
+  90% in 0.0068 secs
+  95% in 0.0075 secs
+  99% in 0.0121 secs
 
 Details (average, fastest, slowest):
-  DNS+dialup:	0.0031 secs, 0.0025 secs, 0.0037 secs
-  DNS-lookup:	0.0001 secs, 0.0000 secs, 0.0005 secs
+  DNS+dialup:	0.0014 secs, 0.0009 secs, 0.0018 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0001 secs
 
 Status code distribution:
-  [200] 200 responses
+  [200] 20000 responses
